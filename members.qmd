@@ -1,0 +1,44 @@
+---
+title: "Members"
+---
+
+## Lab Members
+
+The people who make the Foret Lab's research possible.
+
+### Principal Investigator
+
+**Dr. Alex Foret** — *Lab Director*
+Alex leads the lab's research program in forest ecology and environmental data
+science. Their work focuses on understanding ecosystem resilience in a changing
+climate.
+
+### Postdoctoral Researchers
+
+**Dr. Jordan Rivera** — *Postdoctoral Fellow*
+Studies forest carbon dynamics using remote sensing and ecosystem modeling.
+
+**Dr. Sam Okafor** — *Postdoctoral Fellow*
+Works on biodiversity responses to climate change in temperate forests.
+
+### Graduate Students
+
+**Priya Nair** — *PhD Candidate*
+Researches community ecology and species interactions under environmental
+stress.
+
+**Liam Chen** — *PhD Student*
+Develops open-source tools for reproducible environmental data analysis.
+
+### Research Staff
+
+**Maria Santos** — *Lab Manager*
+Coordinates fieldwork, data management, and day-to-day lab operations.
+
+---
+
+### Join us
+
+We are always looking for curious, motivated researchers. If you are interested
+in graduate study, a postdoc, or collaboration, please reach out at
+[contact@foretlab.org](mailto:contact@foretlab.org).

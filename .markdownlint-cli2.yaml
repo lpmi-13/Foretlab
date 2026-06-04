@@ -1,0 +1,27 @@
+# markdownlint-cli2 configuration
+# Docs: https://github.com/DavidAnson/markdownlint-cli2
+
+# Rule configuration (see https://github.com/DavidAnson/markdownlint)
+config:
+  default: true
+
+  # Don't enforce a hard line-length limit; prose and tables wrap naturally.
+  MD013: false
+
+  # Pages start with an H2 because the H1 title comes from Quarto YAML
+  # front matter, so don't require the first line to be a top-level heading.
+  MD041: false
+
+  # Allow standalone emphasized text (e.g. the "*Keywords: ...*" lines on the
+  # projects page) without treating it as a misused heading.
+  MD036: false
+
+# Files to lint. Includes Quarto (.qmd) sources alongside Markdown.
+globs:
+  - "**/*.md"
+  - "**/*.qmd"
+
+# Paths to skip.
+ignores:
+  - "_site"
+  - ".quarto"

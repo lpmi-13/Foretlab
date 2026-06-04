@@ -1,0 +1,51 @@
+---
+title: "Projects"
+---
+
+## Research Projects
+
+An overview of the lab's active and ongoing research. Each project reflects our
+commitment to open, reproducible, and impactful science.
+
+### Forest Carbon Dynamics
+
+Quantifying how carbon is stored and released across forest landscapes over
+time. We combine remote sensing, field measurements, and statistical models to
+improve estimates of forest carbon flux.
+
+*Keywords: carbon cycling, remote sensing, ecosystem modeling*
+
+---
+
+### Biodiversity & Climate Resilience
+
+Investigating how plant and animal communities respond to a changing climate. We
+study the traits and processes that allow ecosystems to adapt, persist, or
+decline under environmental stress.
+
+*Keywords: biodiversity, climate change, community ecology*
+
+---
+
+### Open Environmental Data Tools
+
+Developing and maintaining open-source software for environmental data analysis.
+Our tools help researchers process, visualize, and share ecological datasets in
+a reproducible way.
+
+*Keywords: software, reproducibility, data science*
+
+---
+
+### Collaborative Field Monitoring
+
+A long-term, multi-site monitoring network tracking forest health indicators.
+This project partners with local communities and institutions to build a shared,
+openly available record of environmental change.
+
+*Keywords: monitoring, long-term ecology, open data*
+
+---
+
+Interested in a project or potential collaboration? [Get in
+touch](mailto:contact@foretlab.org).

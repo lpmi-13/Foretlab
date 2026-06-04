@@ -1,0 +1,36 @@
+---
+title: "About"
+---
+
+## About the Foret Lab
+
+The Foret Lab is an academic research group studying the structure, function,
+and resilience of natural systems. Founded on the principles of open science and
+collaborative inquiry, we develop and apply quantitative methods to questions
+that matter for both science and society.
+
+### Our approach
+
+- **Reproducible research.** All of our analyses are built on open data and
+  open-source tools, so that our results can be verified and extended by others.
+- **Interdisciplinary collaboration.** We work across ecology, statistics, and
+  computer science, partnering with researchers and practitioners worldwide.
+- **Mentorship.** Training the next generation of scientists is central to our
+  mission. We support students at every stage, from undergraduates to postdocs.
+
+### Where we work
+
+The lab is based within the Department of Environmental Science. Our fieldwork
+spans temperate and boreal forest sites, while our computational work happens
+both on campus and through high-performance computing collaborations.
+
+### Funding & acknowledgements
+
+Our research is supported by competitive grants from national science agencies
+and private foundations. We are grateful to our funders, collaborators, and the
+communities that host our field sites.
+
+### Contact
+
+- **Email:** [contact@foretlab.org](mailto:contact@foretlab.org)
+- **Location:** Department of Environmental Science
