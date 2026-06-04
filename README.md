@@ -53,7 +53,7 @@ quarto render
 ```
 
 The contents of `_site/` are plain HTML/CSS/JS and can be deployed to any static
-host (GitHub Pages, Netlify, Vercel, S3, etc.).
+host.
 
 To preview the production build locally, serve the output directory with any
 static file server, for example:
@@ -77,12 +77,10 @@ python3 -m http.server --directory _site 8000
 
 ## Deployment
 
-Quarto has built-in publishing commands. For example, to publish to GitHub
-Pages:
+`quarto render` produces a self-contained static site in `_site/`. Because the
+output is plain HTML/CSS/JS, it can be deployed with whatever method suits your
+workflow — copy the directory to a web server, sync it to object storage, serve
+it from a CDN, or use Quarto's built-in `quarto publish` command.
 
-```bash
-quarto publish gh-pages
-```
-
-See the [Quarto publishing docs](https://quarto.org/docs/publishing/) for other
-targets.
+See the [Quarto publishing docs](https://quarto.org/docs/publishing/) for the
+available publishing targets.
