@@ -5,14 +5,19 @@
 # output goes to `_site` (matching `output-dir` in `_quarto.yml`), which Netlify
 # then publishes.
 #
+# Quarto is installed under $HOME (outside the repo at /opt/build/repo) on
+# purpose: `quarto render` renders the whole project directory, so an in-repo
+# install would make it try to render Quarto's own bundled template .qmd files
+# and fail.
+#
 # To upgrade Quarto, bump QUARTO_VERSION below.
 
 [build]
   publish = "_site"
   command = """
-    curl -fsSL --retry 5 --retry-all-errors -o quarto.tar.gz "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.tar.gz" && \
-    mkdir -p quarto && tar -xzf quarto.tar.gz -C quarto --strip-components=1 && \
-    export PATH="$PWD/quarto/bin:$PATH" && \
+    curl -fsSL --retry 5 --retry-all-errors -o "$HOME/quarto.tar.gz" "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.tar.gz" && \
+    mkdir -p "$HOME/quarto" && tar -xzf "$HOME/quarto.tar.gz" -C "$HOME/quarto" --strip-components=1 && \
+    export PATH="$HOME/quarto/bin:$PATH" && \
     quarto --version && \
     quarto render
   """

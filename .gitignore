@@ -2,10 +2,6 @@
 /_site/
 .quarto/
 
-# Quarto toolchain downloaded during the Netlify build
-/quarto.tar.gz
-/quarto/
-
 # OS / editor cruft
 .DS_Store
 *~
