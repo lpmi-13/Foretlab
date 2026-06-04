@@ -64,7 +64,7 @@ python3 -m http.server --directory _site 8000
 
 ## Project structure
 
-```
+```text
 .
 ├── _quarto.yml     # Site config: navigation, theme, output dir
 ├── index.qmd       # Home / landing page
@@ -73,6 +73,22 @@ python3 -m http.server --directory _site 8000
 ├── members.qmd     # Members page
 ├── styles.css      # Custom site styles
 └── _site/          # Generated build output (git-ignored)
+```
+
+## Continuous integration
+
+Every push and pull request runs the [`CI`](.github/workflows/ci.yml) workflow,
+which has two jobs:
+
+- **Lint Markdown** — runs `markdownlint-cli2` over all `.md` and `.qmd`
+  sources (configured in `.markdownlint-cli2.yaml`).
+- **Build site** — installs Quarto and runs `quarto render`, so any
+  misconfiguration or render error fails the build.
+
+To reproduce the lint step locally:
+
+```bash
+npx markdownlint-cli2 "**/*.md" "**/*.qmd"
 ```
 
 ## Deployment

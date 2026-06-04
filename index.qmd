@@ -14,27 +14,36 @@ ecology and environmental science.
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
+
 ### Research
+
 We pursue open, reproducible research spanning ecology, environmental data
 science, and computational modeling.
 
 [See our projects →](projects.qmd)
+
 :::
 
 ::: {.g-col-12 .g-col-md-4}
+
 ### People
+
 Our lab brings together students, postdocs, and faculty from diverse
 backgrounds.
 
 [Meet the team →](members.qmd)
+
 :::
 
 ::: {.g-col-12 .g-col-md-4}
+
 ### Mission
+
 We are committed to scientific integrity, mentorship, and sharing our work with
 the broader community.
 
 [Learn more about us →](about.qmd)
+
 :::
 
 :::
