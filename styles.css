@@ -1,0 +1,28 @@
+/* Foret Lab — site styles */
+
+.navbar-title {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Give the landing-page feature grid some breathing room */
+.grid {
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.grid h3 {
+  margin-top: 0;
+}
+
+/* Subtle separators between content sections */
+hr {
+  border: none;
+  border-top: 1px solid #e3e3e3;
+  margin: 2.5rem 0;
+}
+
+/* Slightly more generous reading width for body content */
+main {
+  line-height: 1.6;
+}

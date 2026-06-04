@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Foret Lab"
+  description: "Academic research lab — Foret Lab"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: members.qmd
+        text: Members
+  page-footer:
+    center: "© 2026 Foret Lab. Built with Quarto."
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
